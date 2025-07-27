@@ -1,0 +1,10 @@
+1st.create a iam user first with adminstrattor access or any specific access
+2nd.go to the created user and click on security credentials and click on create access key select cli (command line interface)
+3rd.create key and download csv file
+4th.go to your terminal or gitbash give command aws configure and input your access key id and secret access key
+5th.after this before you automate your aws cloud services 
+6th. give commands terrafrom init -> this command will install all dependencies it will need to automate
+7th. give command terraform fmt -> this command will check fromat of file and syntax of the file
+8th. give command terrafrom plan -> this command will plan the whole execution of automation add more commands needed and extra modules etc etc
+9th. in last give command terraform apply -> this command will execute the files created and create the services in your account you created tf files for
+10th . remember i have given all necceaary comments in the file next to every code written make changes according to yourself
